@@ -5,12 +5,18 @@ exec_time_per_image: 0.00075064377784729
 Test loss: 0.03285069880222322
 Test accuracy: 0.9905
 
+# mnist_non-pruned.tflite
+avg_per_pred: 0.005918748259544373
+
 # mnist_pruned_sparcity-50.h5
 images_count: 10000
 exec_time: 7.299525499343872
 exec_time_per_image: 0.0007299525499343872
 Test loss: 0.02319341111796648
 Test accuracy: 0.9936
+
+# mnist_pruned_sparcity-50.tflite
+avg_per_pred: 0.00593696072101593
 
 # mnist_pruned_sparcity-75.h5
 images_count: 10000
@@ -19,12 +25,19 @@ exec_time_per_image: 0.0005088306188583375
 Test loss: 0.021628427339044538
 Test accuracy: 0.9942
 
+# mnist_pruned_sparcity-75.tflite
+avg_per_pred: 0.005831261467933654
+
 # mnist_pruned_sparcity-90.h5
 images_count: 10000
 exec_time: 4.7556469440460205
 exec_time_per_image: 0.00047556469440460206
 Test loss: 0.02283838361937633
 Test accuracy: 0.9925
+
+# mnist_pruned_sparcity-90.tflite
+avg_per_pred: 0.005928963279724121
+
 
 #cifar10_non-pruned.h5
 images_count: 10000
@@ -33,12 +46,18 @@ exec_time_per_image: 0.0004446354627609253
 Test loss: 0.8845412295341492
 Test accuracy: 0.7057
 
+#cifar10_non-pruned.tflite
+avg_per_pred: 0.0022827627420425414
+
 #cifar10_pruned_sparcity-50.h5
 images_count: 10000
 exec_time: 4.381301403045654
 exec_time_per_image: 0.00043813014030456545
 Test loss: 1.8192602521896362
 Test accuracy: 0.6409
+
+#cifar10_pruned_sparcity-50.tflite
+avg_per_pred: 0.0037144493579864503
 
 #cifar10_pruned_sparcity-75.h5
 images_count: 10000
@@ -47,12 +66,19 @@ exec_time_per_image: 0.00044533636569976805
 Test loss: 1.7765515314102174
 Test accuracy: 0.6842
 
+#cifar10_pruned_sparcity-75.tflite
+avg_per_pred: 0.003663801169395447
+
 #cifar10_pruned_sparcity-90.h5
 images_count: 10000
 exec_time: 4.059828996658325
 exec_time_per_image: 0.00040598289966583254
 Test loss: 1.7754767974853516
 Test accuracy: 0.6921
+
+#cifar10_pruned_sparcity-90.tflite
+avg_per_pred: 0.0039172418594360355
+
 
 #fashion_mnist_non-pruned.h5
 images_count: 10000
@@ -61,12 +87,18 @@ exec_time_per_image: 0.00033089919090271
 Test loss: 0.4387332987397909
 Test accuracy: 0.9068
 
+#fashion_mnist_non-pruned.tflite
+avg_per_pred: 0.0008666593551635742
+
 #fashion_mnist_pruned_sparcity-50.h5
 images_count: 10000
 exec_time: 3.0502381324768066
 exec_time_per_image: 0.00030502381324768065
 Test loss: 1.567273013305664
 Test accuracy: 0.8932
+
+#fashion_mnist_pruned_sparcity-50.tflite
+avg_per_pred: 0.0008534809112548829
 
 #fashion_mnist_pruned_sparcity-75.h5
 images_count: 10000
@@ -75,9 +107,15 @@ exec_time_per_image: 0.00034210784435272215
 Test loss: 1.5577854547500611
 Test accuracy: 0.903
 
+#fashion_mnist_pruned_sparcity-75.tflite
+avg_per_pred: 0.0008981854677200318
+
 #fashion_mnist_pruned_sparcity-90.h5
 images_count: 10000
 exec_time: 3.3906168937683105
 exec_time_per_image: 0.00033906168937683105
 Test loss: 1.5668896862030028
 Test accuracy: 0.895
+
+#fashion_mnist_pruned_sparcity-90.tflite
+avg_per_pred: 0.0009360839366912842
